@@ -7,6 +7,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="ca.qc.lbpsb.fusion.fcmnotification.MainActivity"
     >
+
+
 <LinearLayout
 
     android:layout_width="match_parent"
@@ -130,6 +132,8 @@
                 android:ems="10"
                 android:hint="Email"
                 android:padding="8dp"
+                android:defaultFocusHighlightEnabled="true"
+
                 android:inputType="textEmailAddress"
                 android:textColor="#888" />
 
@@ -171,7 +175,6 @@
 
 
     </LinearLayout>
-
     <!--<Button-->
     <!--android:text="SNotificationstion"-->
     <!--android:layout_width="match_parent"-->
