@@ -100,7 +100,7 @@ public class NotificationCenterActivity extends AppCompatActivity {
         //to display it in recyclerview
 
        // loadMessages();
-
+//
 
 
     }
