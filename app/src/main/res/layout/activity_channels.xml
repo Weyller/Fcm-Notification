@@ -44,6 +44,10 @@
 
             <!--FUSION UPDATE LAYOUT-->
             <LinearLayout
+                android:id="@+id/linear_update"
+                android:tag="update"
+                android:clickable="true"
+                android:focusable="true"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/colorBack"
@@ -70,6 +74,7 @@
                         android:layout_centerVertical="true"
                         android:background="@drawable/toggle_selector"
                         android:checked="false"
+                        android:clickable="false"
                         android:text=""
                         android:textOff=""
                         android:textOn="" />
